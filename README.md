@@ -1,4 +1,3 @@
-```markdown
 # Notes App: A Mobile Note-Taking Application
 
 This project is a mobile notes app built using Kotlin, XML, Room database, and MVVM architecture. It allows users to create, view, edit, and delete notes.
@@ -7,7 +6,7 @@ This project is a mobile notes app built using Kotlin, XML, Room database, and M
 
 1. **Clone the repository:**
    ```bash
-   git clone [invalid URL removed]
+   git clone repositoryURL
    ```
 2. **Open the project in Android Studio.**
 3. **Ensure you have the latest Android SDK and tools installed.**
@@ -35,5 +34,5 @@ See the `app/build.gradle` file for the specific versions.
 * Delete notes.
 * Automatic data fetching and updating through LiveData in the MVVM pattern.
 
-###Licence
-*Feel free to edit and change as you want.
+### Licence
+* Feel free to edit and change as you want.
