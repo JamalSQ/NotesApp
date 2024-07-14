@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#80FFFFFF"
+    >
+    <TextView
+        android:id="@+id/updateHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Note"
+        android:fontFamily="@font/mackenzin"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/UpdateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:padding="20dp"
+        android:fontFamily="@font/comicpillow"
+        android:elevation="2dp"
+        android:layout_marginHorizontal="3dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/UpdateDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/nunitovariablefontwght"
+        android:elevation="3dp"
+        android:padding="20dp"
+        android:layout_marginHorizontal="2dp"
+        android:minLines="9" />
+
+    <Button
+        android:id="@+id/updateNoteButton"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp"
+        android:fontFamily="@font/mackenzin"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/primary_color"
+        android:text="Update" />
+</LinearLayout>
